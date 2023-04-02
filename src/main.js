@@ -1,11 +1,15 @@
-import { preFetchLib } from 'hel-micro';
+/* eslint-disable */ 
+import { preFetchLib, bindVueRuntime } from 'hel-micro';
+import Vue from 'vue';
+
+bindVueRuntime({ Vue });
 
 (async function () {
   await preFetchLib('hel-tpl-remote-vue-comps');
+  await preFetchLib('lib-zhangbb-test');
 
   // 自定义前缀
   // await preFetchLib('hel-tpl-remote-vue-comps', { apiPrefix: 'https://xxx.yyy' });
-
 
   // 调试本地开发中的远程组件
   // const enableCustom = !!window.location.port;
