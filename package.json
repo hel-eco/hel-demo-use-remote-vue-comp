@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "hel-micro": "^4.0.2",
-    "hel-tpl-remote-vue-comps": "^1.2.1",
+    "hel-micro": "^4.5.1",
+    "hel-tpl-remote-vue-comps": "^1.4.0",
     "i": "^0.3.7",
     "lib-zhangbb-test": "^1.0.3",
     "vue": "^2.6.11"
