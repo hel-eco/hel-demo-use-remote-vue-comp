@@ -1,4 +1,4 @@
-/* eslint-disable */ 
+/* eslint-disable */
 import { preFetchLib, bindVueRuntime } from 'hel-micro';
 import Vue from 'vue';
 
@@ -21,7 +21,7 @@ bindVueRuntime({ Vue });
   //   },
   // });
 
-  import('./loadApp');
+  await import('./loadApp');
 }()).catch(err => {
   console.error('loadApp err: ', err);
 });

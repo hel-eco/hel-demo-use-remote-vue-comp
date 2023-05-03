@@ -12,7 +12,6 @@
     "core-js": "^3.6.5",
     "hel-micro": "^4.5.1",
     "hel-tpl-remote-vue-comps": "^1.4.0",
-    "i": "^0.3.7",
     "lib-zhangbb-test": "^1.0.3",
     "vue": "^2.6.11"
   },
@@ -23,6 +22,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "hel-dev-utils": "^4.3.11",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
